@@ -1,4 +1,4 @@
-# sept14.github.io
+# html.github.io
 intro computers 
 
 Who am I?
