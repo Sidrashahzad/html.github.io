@@ -9,34 +9,76 @@
   <meta  name="keyword"content="learning,html,tag,layout">
   <meta name="viewport"content="width=device-width, intial-scale=1.0">
 +-
-<style> div {border:thin dotted red; }</style>
+<style> div {border:thin dotted red; }
+* {
+ box-sizing: border-box;
+ }
 
- </head>
+.body {
+  font-family: Arial, Helvetica, sans-serif;
+}
+ .header {
+  padding: 30px;
+  text-align: center;
+  font-size: 35px;
+ }
+ .nav {
+  Width:25%;
+  float:left;
+  padding:15px;
+  border: 1px solid #337AFF;
+ }
+ .article{
+   Width:25%;
+   text-align:middle;
+   padding:15px;
+   border: 1px solid #337AFF;
+ }
+ .footer {
+  padding: 10px;
+  text-align: center;
+ }
 
-  <body>
+</style>
 
-   <header><h1>flex box</h1></header>
-   
-   <nav><h1>Navigation</h1></nav>
-   <aside><p>This is the aside space.</p></aside>
+
+</head>
+
+  </body>
+<div><header>
+
+  <h1 style="color:white; font-size:7vw;background-color:Blue;">Learning HTML(splash page)</p></h1></header></div>
+
+
+  <div><h3><nav>Navigation with no viewport in h3</nav></h3></div>
+
    <section>
-     <h3>Section 1</h3>
-     <article>
-       <p>This is article 1 in section 1.</p>
-     </article>
-     <article>
-       <p>This is article 2 in section 1.</p>
-     </article>
-   </section>
-   <section>
-     <h3>Section 2</h3>
-     <article>
-       <p>This is article 1 in section 2.</p>
-     </article>
-     <article>
-       <p>This is article 2 in section 2.</p>
-     </article>
-   </section>
+   <h3 style="font-size: 2,5vw;">Making comparisions of tags</h3>
+   <article>
+     <p>here are the hyperlinks to the mandatory Experiment pages:</p>
+    <ol style ="font-size:1vw;"type="A">
+    <li style="font-size:1vw;" > Meta data Example:<a href= "childpages/meta data.HTML" target= "_blank">click here</a>
+    <li style="font-size:1vw;" >footer Blockquote example:<a href= "childpages/footer Blockquote.HTML" target= "_blank">click here</a>
+    <li style="font-size:1vw;" >template Exempler<a href= "childpages/child template.HTML" target= "_blank">click here</a>
+    <li style="font-size:1vw;" > heading and paragraph tags<a href= "childpages/Headings and paragraphs.HTML" target= "_blank">click here</a>
+    <li>Subscript and super script tags<a href= "childpages/subscript and superscript.html" target= "_blank">click here</a>
+    <li >image lesson <a href= "childpages/Image lesson.HTML" target= "_blank">click here</a>
+    <li style="font-size:1vw;" >laying out DIVs (using HTML boiler plate)<a href= "childpages/laying out DIVs.HTML" target= "_blank">click here</a>
+    <li style="font-size:1vw;" >What this index page might look like with flexbox<a href= "childpages/flex box.HTML" target= "_blank">click here</a>
+    </ol>
+    <p style ="font size:2,5vw;">Additional information pages</p>
+    <ul style="font-size:1vw;" style="list"-style-type:square;>
+    <li style="font-size:1vw;" >lists unordered and ordered information: <a href= "" target= "_blank">click here</a>
+    <li style="font-size:1vw;" >Example # 1, <a href= "" target= "_blank">click here</a>
+    <li style="font-size:1vw;" >Example #2, <a href= "" target= "_blank">click here</a>
+    <li >hyperlinks and Images example<a href= "" target= "_blank">click here</a>
+    <li style="font-size:1vw;" >images and advanced lesson on mapping <a href= "" target= "_blank">click here</a>
+    <li > Example 2-column layout using flexbox, <a href= "childpages/flex 2 column\testing.html" target= "_blank">click here</a>
+    <li style="font-size:1vw;" >Example 3- column layout for sematic body tag using  flexbox<a href= "childPages\flex column 3\testing.html" target= "_blank">click here</a>
+    <ul>
+   </artical>
+  </section>
+</div>
 
 </body>
 
@@ -47,8 +89,7 @@
 <p>
   <strong>
     <a href="https://www.quotemaster.org/computer+and+education#&gid=1&pid=2" target="_blank">
-      Bill gates
-
+     Bill gates
     </a>
   </strong>
 </p>
